@@ -9,10 +9,12 @@ name: CompileDatasets
 
 jobs:
   compiledata:
+    if: github.event.commits[0].author.name != 'GitHubActions'
     runs-on: ubuntu-latest
     env:
-      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_PAT: ${{ secrets.GHA_PAT }}
       # Use of GITHUB_TOKEN prevents infinite loops: https://docs.github.com/en/actions/using-workflows/triggering-a-workflow
+      # But see https://stackoverflow.com/questions/69263843/how-to-push-to-protected-main-branches-in-a-github-action
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -40,8 +42,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --local user.name "$GITHUB_ACTOR"
-          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git config user.name "GitHubActions"
+          git config user.email "<>"
           git add data/
           git add man/
           git commit -m "Recompile datasets" || echo "No changes to commit"
