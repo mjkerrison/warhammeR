@@ -21,7 +21,7 @@
 #' @format A tibble with 20 rows and the following fields:
 #' \describe{
 #'   \item{id}{dbl (Primary key) The primary key for the planet}
-#'   \item{is_special_code}{bool Denotes whether this is a 'special' code, such as Unknown or [REDACTED]. These are "sprinkled" throughout because, hey, there are a billion worlds, right? The Administratum deemed it inefficient to start numbering these from 999,999,999...}
+#'   \item{is_special_code}{bool Denotes whether this is a 'special' code, such as Unknown or \[REDACTED\]. These are "sprinkled" throughout because, hey, there are a billion worlds, right? The Administratum deemed it inefficient to start numbering these from 999,999,999...}
 #'   \item{name}{chr The name by which the planet is best known.}
 #' }
 "d_planets"

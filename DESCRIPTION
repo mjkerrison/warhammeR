@@ -2,7 +2,7 @@ Package: warhammeR
 Title: Dimensional Modelling for Warhammer 40,000
 Version: 0.0.0.9000
 Authors@R: 
-    person("Michael", "Kerrison", , "", role = c("aut", "cre"))
+    person("Michael", "Kerrison", email = "first.last@example.com", role = c("aut", "cre"))
 Description: Well-dimensionally-modelled data from the 31st through 41st millennia. Copyrights and trademarks belong to Games Workshop Limited.
 License: MIT + file LICENSE
 Encoding: UTF-8
