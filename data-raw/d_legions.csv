@@ -1,5 +1,21 @@
-id,numeral,name,loyalty
-1,I,"Dark Angels",Loyalist
-2,II,"[REDACTED]",Unknown
-3,III,"To Do",Unknown
-4,IV,"To Do",Unknown
+id,numeral,name,name_informal,name_pre_crusade,loyalty
+1,I,Dark Angels,,The First,Loyalist
+2,II,[REDACTED],The Forgotten,,Unknown
+3,III,Emperor’s Children,,,Traitor
+4,IV,Iron Warriors,,,Traitor
+5,V,White Scars,,Star Hunters,Loyalist
+6,VI,Space Wolves,,,Loyalist
+7,VII,Imperial Fists,,,Loyalist
+8,VIII,Night Lords,,,Traitor
+9,IX,Blood Angels,,Revenant Legion,Loyalist
+10,X,Iron Hands,,Storm Walkers,Loyalist
+11,XI,[REDACTED],The Purged,,Unknown
+12,XIII,World Eaters,,War Hounds,Traitor
+13,XIII,Ultramarines,,War-Born,Loyalist
+14,XIV,Death Guard,,Dusk Raiders,Traitor
+15,XV,Thousand Sons,,,Traitor
+16,XVI,Sons of Horus,,Luna Wolves,Traitor
+17,XVII,Word Bearers,,Imperial Heralds,Traitor
+18,XVIII,Salamanders,,Dragon Warriors,Loyalist
+19,XIX,Raven Guard,,,Loyalist
+20,XX,Alpha Legion,,Ghost Legion,Traitor
