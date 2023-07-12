@@ -36,6 +36,7 @@ jobs:
 
       - name: CompileDocs
         run: devtools::document()
+        shell: Rscript {0}
 
       - name: Commit and push changes
         run: |
