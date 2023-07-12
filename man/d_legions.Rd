@@ -13,6 +13,9 @@ A tibble with 20 rows and the following fields:
 \item{loyalty}{chr The legion's status during and after the Horus Heresy}
 }
 }
+\source{
+https://warhammer40k.fandom.com/wiki/Space_Marine_Legions
+}
 \usage{
 d_legions
 }
